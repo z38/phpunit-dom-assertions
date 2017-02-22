@@ -1,5 +1,7 @@
 # PHPUnit DOM Assertions
 
+[![Build Status](https://travis-ci.org/lstrojny/phpunit-dom-assertions.svg?branch=master)](https://travis-ci.org/lstrojny/phpunit-dom-assertions)
+
 A work in progress, drop-in replacement for the following deprecated PHPUnit assertions:
 
  * `assertSelectCount()`
@@ -57,8 +59,6 @@ class DOMTest extends DOMTestCase
 ~~~
 
 ## Tests
-
-[![Build Status](https://travis-ci.org/phpunit/phpunit-dom-assertions.svg?branch=master)](https://travis-ci.org/phpunit/phpunit-dom-assertions)
 
 To run the test suite, you need [composer](http://getcomposer.org).
 
